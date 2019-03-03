@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entidades.csproj" />
+    <ProjectReference Include="..\Excepciones\Excepciones.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Servicios\" />
+    <Folder Include="Business\" />
+  </ItemGroup>
+</Project>

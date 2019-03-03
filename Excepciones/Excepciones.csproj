@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ExceptionOddTeams.cs" />
+    <Compile Remove="ExceptionCountTeams.cs" />
+    <Compile Remove="ExceptionDifferentSport.cs" />
+    <Compile Remove="ExceptionInvalidEmail.cs" />
+    <Compile Remove="ExceptionNotMultipleOf4.cs" />
+    <Compile Remove="ExceptionOrderListText.cs" />
+    <Compile Remove="ExceptionSameDay.cs" />
+    <Compile Remove="ExceptionSameTeam.cs" />
+    <Compile Remove="ExceptionTeamNotOnSportTeamList.cs" />
+    <Compile Remove="ExceptionTokenNull.cs" />
+  </ItemGroup>
+</Project>
